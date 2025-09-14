@@ -1,0 +1,16 @@
+=== SYN Packets (Reconnaissance) ===
+1   192.168.1.100   192.168.1.10   21
+2   192.168.1.100   192.168.1.10   22
+3   192.168.1.100   192.168.1.10   80
+4   192.168.1.100   192.168.1.10   443
+5   192.168.1.100   192.168.1.10   80
+
+=== HTTP POST (Exploitation) ===
+8   192.168.1.100   /shell.php
+
+=== DNS Queries (C2 Communication) ===
+10  192.168.1.10   malicious.example.com
+12  192.168.1.10   checkin0.malicious.example.com
+13  192.168.1.10   checkin1.malicious.example.com
+14  192.168.1.10   checkin2.malicious.example.com
+
